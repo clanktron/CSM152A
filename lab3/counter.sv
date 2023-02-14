@@ -1,6 +1,6 @@
-module stopwatch(SEL, ADJ);
+module counter(SEL, ADJ, RESET, PAUSE, onehz, twohz, speedyhz, blinkyhz);
 
-    input [7:0] SEL, ADJ;
+    input SEL, ADJ;
 
     always
 

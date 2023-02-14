@@ -1,5 +1,5 @@
-module stopwatch(SEL, ADJ);
+module stopwatch(SEL, ADJ, RESET, PAUSE);
 
-    input [7:0] SEL, ADJ;
+    input SEL, ADJ, RESET, PAUSE;
 
     always
