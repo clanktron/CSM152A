@@ -1,6 +1,6 @@
 module FPCVT(D,S,E,F);
 
-    input[11:0] D;
+    input [11:0] D;
     output reg S;
     output reg[2:0] E;
     output reg[3:0] F;
